@@ -1,0 +1,553 @@
+h2 {
+  font-family: Raleway;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+
+/* CLASSES */
+.svgimg {
+  position: relative;
+  left: 20%;
+  margin-bottom: 10px;
+}
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #adadad;
+}
+::-webkit-scrollbar-thumb {
+  background: #858585;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c4c4c4;
+}
+
+/* SCROLLBAR END */
+.ph3 {
+  font-size: 15px;
+}
+.homeBody {
+  margin: 0;
+  padding: 0;
+  background: #1AC8ED;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-family: 'Inconsolata', monospace;
+}
+.navbarContainer {
+  position: fixed;
+  width: 100%;
+  top: 10px;
+  z-index: 2;
+  padding-top: 0;
+  padding-bottom: 15px;
+  margin-top: -10px;
+}
+.menuBtn {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  width: 30px;
+  height: 50px;
+  cursor: pointer;
+}
+.menuLine1 {
+  display: block;
+  max-width: 30px;
+  height: 2px;
+  margin: 3px 0;
+  background-color: #2D2D2A;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+.menuLine2 {
+  display: block;
+  max-width: 30px;
+  height: 2px;
+  margin: 3px 0;
+  background-color: #2D2D2A;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+.siteLogo {
+  float: right;
+
+}
+.logo {
+  top: 50px;
+  right: 30px;
+  width: 320px;
+  height: 74px;
+}
+.siteLogo:hover {
+  opacity: 0.6;
+  transition: 0.1s ease;
+}
+
+
+/* ------ */
+.text-block {
+  color: white;
+  opacity: 0.8;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+.text-block2 {
+  color: white;
+  opacity: 0.8;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  top: 35%;
+  position: relative;
+}
+.paragraph-block {
+  font-size: 13px;
+}
+
+
+
+.topBtm-block {
+  height: 750px;
+  width: 100%;
+  padding:7% 20% 10% 20%;
+  z-index: 2;
+}
+.line {
+  position: relative;
+  top: 10%;
+  width: 10em;
+  margin: 175px auto 45px;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 250%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;transform: translateY(-50%);
+}
+.line-2 {
+  position: relative;
+  top: 10%;
+  width: 10em;
+  margin: 50px auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 200%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;transform: translateY(-50%);
+}
+
+.anim-typewriter {
+  font-weight: 200;
+  animation: typewriter 1.5s steps(20) 0.4s 1 normal both,
+  blinkTextCursor 500ms steps(20) infinite normal;
+}
+.anim-typewriter-2 {
+  color: white;
+  font-weight: 200;
+  animation: typewriter-2 1.5s steps(20) 1.6s 1 normal both,
+  blinkTextCursor-2 500ms steps(25) infinite normal;
+}
+.arrowBtn {
+  padding: 20px 40px 20px 40px;
+  width: 150px;
+  background: #fffcf2;
+  opacity: 0.8;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  display: block;
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+.arrowImg {
+  height: 20px;
+  width: auto;
+  margin: auto;
+  text-align: center;
+  opacity: 1;
+  z-index: 3;
+}
+
+
+.middle-block {
+  margin-top: 100px;
+  width:100%;
+  padding:7% 20% 10% 20%;
+  height: 300px;
+  position: relative;
+  background: #2D2D2A;
+  overflow: hidden;
+}
+.left {
+  float: left;
+  height: 70%;
+  width: 40%;
+  background: #ccc5b9;
+  overflow: hidden;
+  position: relative;
+  top: 15%;
+  left: 90px;
+  border-radius: 5px;
+}
+.right {
+  height: 70%;
+  width: 40%;
+  float: right;
+  background: #fffcf2;
+  overflow: hidden;
+  position: relative;
+  top: 15%;
+  right: 90px;
+  border-radius: 5px;
+}
+
+
+.btm-block {
+  margin-top: 100px;
+  width:100%;
+  padding:7% 20% 10% 20%;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+  background: #FCF300;
+}
+.btm-block-last {
+  background: #809871;
+}
+
+
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(0,0,0); /* Black fallback color */
+  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 25px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+
+/*------------------*/
+/*  SKEW CLOCKWISE  */
+/*------------------*/
+.skew-cc{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to right bottom, #1AC8ED 49%, #2D2D2A 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
+}
+.skew-cc-top{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to right bottom, #FCF300 49%, #2D2D2A 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
+}
+.skew-cc-top2{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to right bottom, #809871 49%, #2D2D2A 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
+}
+
+
+/*-------------------------*/
+/* SKEW COUNTER CLOCKWISE  */
+/*-------------------------*/
+.skew-c{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to left bottom, #2D2D2A 49%, #1AC8ED 50%);
+}
+.skew-c-top{
+  width:100%;
+  height:115px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to left bottom, #2D2D2A 49%, #1AC8ED 50%);
+}
+.skew-c-btm{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to left bottom, #2D2D2A 49%, #FCF300 50%);
+}
+.colorchange1 {
+  background: linear-gradient(to left bottom, #2D2D2A 49%, #809871 50%);
+
+}
+
+
+/* ----- */
+/* FOOTER START */
+.footer {
+  height: 400px;
+  width: auto;
+  left: 0;
+  bottom: 0px;
+  background-color: #2D2D2A;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  /* box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5); */
+}
+
+.ul-footer {
+  position: relative;
+  bottom: -13.5em;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 0;
+  display: flex;
+}
+.ul-footer .li-footer {
+  list-style: none;
+}
+
+.ul-footer .li-footer .a-footer {
+  display: block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  transition: .5s;
+}
+
+.ul-footer .li-footer .a-footer .span-footer {
+  position: absolute;
+  transition: transform 0.5s;
+}
+
+/* UPPER AND LOWER */
+.ul-footer .li-footer .a-footer .span-footer:nth-child(1),
+.ul-footer .li-footer .a-footer .span-footer:nth-child(3) {
+  width: 100%;
+  height: 1px;
+  background: white;
+}
+.ul-footer .li-footer .a-footer .span-footer:nth-child(1) {
+  top: 0;
+  left: 0;
+  transform-origin: right;
+}
+.ul-footer .li-footer .a-footer:hover .span-footer:nth-child(1) {
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s;
+}
+.ul-footer .li-footer .a-footer .span-footer:nth-child(3) {
+  bottom: 0;
+  left: 0;
+  transform-origin: left;
+}
+.ul-footer .li-footer .a-footer:hover .span-footer:nth-child(3) {
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+}
+
+/* RIGHT AND LEFT */
+.ul-footer .li-footer .a-footer .span-footer:nth-child(2),
+.ul-footer .li-footer .a-footer .span-footer:nth-child(4) {
+  width: 1px;
+  height: 100%;
+  background: white;
+}
+.ul-footer .li-footer .a-footer .span-footer:nth-child(2) {
+  top: 0;
+  left: 0;
+  transform: scaleY(0);
+  transform-origin: bottom;
+}
+.ul-footer .li-footer .a-footer:hover .span-footer:nth-child(2) {
+  transform: scaleY(1);
+  transform-origin: top;
+  transition: transform 0.5s;
+}
+.ul-footer .li-footer .a-footer .span-footer:nth-child(4) {
+  top: 0;
+  right: 0;
+  transform: scaleY(0);
+  transform-origin: top;
+}
+.ul-footer .li-footer .a-footer:hover .span-footer:nth-child(4) {
+  transform: scaleY(1);
+  transform-origin: bottom;
+  transition: transform 0.5s;
+}
+
+
+.text-footer {
+  color: white;
+  opacity: 0.6;
+  text-align: center;
+  margin: 10px auto;
+  top: 60%;
+  position: relative;
+}
+
+/* FOOTER END */
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+
+/* IDS */
+
+
+/* @ MEDIA */
+@media only screen and (max-height:800px) {
+/* LAPTOP */
+  .topBtm-block {
+    height: 500px;
+  }
+  .middle-block {
+    height: 300px;
+  }
+  .line {
+   margin-top: 100px;
+   top: 10px;
+ }
+  .line-2 {
+   top: 10px;
+ }
+  .arrowBtn {
+    position: relative;
+    top: 5%;
+ }
+}
+
+/* @keyframes */
+
+@keyframes typewriter {
+      from {
+            width: 0;
+      }
+      to {
+            width: 9.5em;
+      }
+}
+
+@keyframes blinkTextCursor {
+      from {
+            border-right-color: rgba(255, 255, 255, 0.75);
+      }
+      to {
+            border-right-color: transparent;
+      }
+}
+
+@keyframes typewriter-2 {
+      from {
+            width: 0;
+      }
+      to {
+            width: 11.5em;
+      }
+}
+
+
+@keyframes blinkTextCursor-2 {
+      from {
+            border-right-color: rgba(255, 255, 255, 0.75);
+      }
+      to {
+            border-right-color: transparent;
+      }
+}
+@keyframes fadeIn {
+  0% { opacity:0; }
+  75% { opacity:0; }
+  100% { opacity:1; }
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
