@@ -620,11 +620,20 @@ h2 {
   .h2Container {
     padding:0;
     margin:0;
-    width: 20%;
+    width: 300px;
     overflow-x: visible;
+    margin: auto;
+    padding: 50px;
+    padding-top: 0;
   }
+  .h2TextContainer {
+    width: 100%;
+  }
+
   .h2TextBlock {
     font-size: 25px;
+    margin: auto;
+    width: 100%;
   }
 
 
