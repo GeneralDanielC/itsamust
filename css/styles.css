@@ -592,13 +592,23 @@ h2 {
   }
   .text-block {
     width: 100%;
-
+  }
+  .arrowBtn {
+    visibility: hidden;
   }
   .topBtm-block {
     height: 600px;
   }
   .skew-c-top {
     visibility: hidden;
+  }
+  .anim-typewriter {
+    font-size: 35px;
+    width: auto;
+  }
+  .anim-typewriter-2 {
+    font-size: 25px;
+    width: auto;
   }
 
 
