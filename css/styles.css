@@ -597,7 +597,7 @@ h2 {
     visibility: hidden;
   }
   .topBtm-block {
-    height: 600px;
+    height: auto;
   }
   .skew-c-top {
     visibility: hidden;
@@ -620,10 +620,8 @@ h2 {
   .h2Container {
     padding:0;
     margin:0;
-    width: 300px;
     overflow-x: visible;
     margin: auto;
-    padding: 50px;
     padding-top: 0;
   }
   .h2TextContainer {
@@ -631,9 +629,12 @@ h2 {
   }
 
   .h2TextBlock {
-    font-size: 25px;
+    font-size: 20px;
     margin: auto;
     width: 100%;
+  }
+  .h2TextBlock-läsmer {
+    visibility: hidden;
   }
 
 
