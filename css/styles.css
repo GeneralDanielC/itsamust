@@ -37,6 +37,7 @@ h2 {
 }
 
 
+
 /* CLASSES */
 .svgimg {
   position: relative;
@@ -45,19 +46,68 @@ h2 {
 }
 /* SCROLLBAR */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
+  border-radius: 3px;
 }
 ::-webkit-scrollbar-track {
-  background: #adadad;
+  background: #222222;
 }
 ::-webkit-scrollbar-thumb {
-  background: #858585;
+  background: #888585;
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #c4c4c4;
 }
 
 /* SCROLLBAR END */
+/* #middle {
+  margin: 0;
+  padding: 0;
+}
+.columns {
+  width: 100%;
+  height: 1000px;
+  margin: auto;
+  padding: 10px;
+}
+.leftColumn {
+  width: 30%;
+  height: 300px;
+  float: left;
+
+}
+.rightColumn {
+  margin-left: 30%;
+  height: 300px;
+} */
+
+.mailBoxContainer {
+  position: relative;
+  width: 300px;
+  height: 75px;
+  background-color: lightgray;
+  border-radius: 5px;
+  top: 45%;
+  left: 55%;
+  z-index: 1;
+  display: none;
+}
+.mailBoxText {
+  top: 50%;
+}
+.mailBoxATAG {
+  margin: auto;
+  color: white;
+  text-decoration: none;
+  text-decoration: underline;
+}
+.mailBoxATAG:hover {
+  margin: auto;
+  color: black;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
 .col-lg-4 {
   padding: 30px;
   border-radius: 5px;
@@ -551,7 +601,66 @@ h2 {
 /* @ MEDIA */
 @media only screen and (max-height:800px) {
 /* LAPTOP */
-  .topBtm-block {
+* {
+  overflow-x: hidden;
+}
+.middle-block {
+  height: auto;
+}
+
+.text-block {
+  width: 70%;
+}
+.arrowBtn {
+  visibility: hidden;
+}
+.topBtm-block {
+  height: auto;
+}
+.anim-typewriter {
+  font-size: 30px;
+  width: auto;
+}
+.anim-typewriter-2 {
+  font-size: 25px;
+  width: auto;
+  top: 40%;
+}
+.intro-blcok {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 60px;
+}
+.h2Container {
+  padding:0;
+  margin:0;
+  overflow-x: visible;
+  margin: auto;
+  padding-top: 0;
+}
+.h2TextContainer {
+  width: 100%;
+}
+
+.h2TextBlock {
+  font-size: 25px;
+  margin: auto;
+  width: 60%;
+}
+.h2TextBlock:hover {
+
+  font-size: 20px;
+  margin: auto;
+  width: 50%;
+}
+.row {
+  width: 1000px;
+  margin-left: -16%;
+}
+
+
+  /* .topBtm-block {
     height: 750px;
   }
   .topBtm-block-produkter {
@@ -567,7 +676,7 @@ h2 {
  }
   .line-2 {
    top: 10px;
- }
+ } */
   .arrowBtn {
     position: relative;
     top: 5%;
@@ -636,8 +745,20 @@ h2 {
   .h2TextBlock-läsmer {
     visibility: hidden;
   }
+  .col-lg-4:hover {
+    transition: 0;
+    background: transparent;
+    color: white;
+  }
+  .col-lg-4:active {
+    background: white;
+    color: black;
+    transition: 0.5s;
+  }
 
-
+  /* .merInfoBtn-produkt {
+    display: none !important;
+  } */
 
   /* .topBtm-block {
     height: 750px;
