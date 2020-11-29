@@ -1,0 +1,184 @@
+/* @ MEDIA */
+@media only screen and (max-height:800px) {
+/* LAPTOP */
+* {
+  overflow-x: hidden;
+}
+.middle-block {
+  height: auto;
+}
+
+.text-block {
+  width: 70%;
+}
+.arrowBtn {
+  visibility: hidden;
+}
+.topBtm-block {
+  height: auto;
+}
+.anim-typewriter {
+  font-size: 30px;
+  width: auto;
+}
+.anim-typewriter-2 {
+  font-size: 25px;
+  width: auto;
+  top: 40%;
+}
+.intro-blcok {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 60px;
+}
+.h2Container {
+  padding:0;
+  margin:0;
+  overflow-x: visible;
+  margin: auto;
+  padding-top: 0;
+}
+.h2TextContainer {
+  width: 100%;
+}
+
+.h2TextBlock {
+  font-size: 25px;
+  margin: auto;
+  width: 60%;
+}
+.h2TextBlock:hover {
+
+  font-size: 20px;
+  margin: auto;
+  width: 50%;
+}
+.row {
+  width: 1000px;
+  margin-left: -16%;
+}
+
+
+  /* .topBtm-block {
+    height: 750px;
+  }
+  .topBtm-block-produkter {
+    height: 850px;
+  }
+
+  .middle-block {
+    height: 750px;
+  }
+  .line {
+   margin-top: 100px;
+   top: 10px;
+ }
+  .line-2 {
+   top: 10px;
+ } */
+  .arrowBtn {
+    position: relative;
+    top: 5%;
+ }
+}
+
+@media only screen and (max-width:550px) {
+/* Phone */
+  * {
+    overflow-x: hidden;
+  }
+  /* SCROLLBAR */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  /* SCROLLBAR END */
+  .logo {
+    margin: 20px 20px;
+    width: 50%;
+    height: auto;
+    float: right;
+  }
+  .text-block {
+    width: 100%;
+  }
+  .arrowBtn {
+    visibility: hidden;
+  }
+  .topBtm-block {
+    height: auto;
+  }
+  .skew-c-top {
+    visibility: hidden;
+  }
+  .anim-typewriter {
+    font-size: 25px;
+    width: auto;
+  }
+  .anim-typewriter-2 {
+    font-size: 20px;
+    width: auto;
+    top: 40%;
+  }
+  .intro-blcok {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 60px;
+  }
+  .h2Container {
+    padding:0;
+    margin:0;
+    overflow-x: visible;
+    margin: auto;
+    padding-top: 0;
+  }
+  .h2TextContainer {
+    width: 100%;
+  }
+
+  .h2TextBlock {
+    font-size: 20px;
+    margin: auto;
+    width: 100%;
+  }
+  .h2TextBlock-läsmer {
+    visibility: hidden;
+  }
+  .col-lg-4:hover {
+    transition: 0;
+    background: transparent;
+    color: white;
+  }
+  .col-lg-4:active {
+    background: white;
+    color: black;
+    transition: 0.5s;
+  }
+
+  /* .merInfoBtn-produkt {
+    display: none !important;
+  } */
+
+  /* .topBtm-block {
+    height: 750px;
+  }
+  .topBtm-block-produkter {
+    height: 850px;
+  }
+
+  .middle-block {
+    height: 750px;
+  }
+  .line {
+   margin-top: 100px;
+   top: 10px;
+ }
+  .line-2 {
+   top: 10px;
+ }
+  .arrowBtn {
+    position: relative;
+    top: 5%;
+ } */
+}
