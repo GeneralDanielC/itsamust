@@ -1,9 +1,10 @@
 /* @ MEDIA */
-@media only screen and (max-height:800px) {
+@media only screen and (max-width:1280px) {
 /* LAPTOP */
 * {
   overflow-x: hidden;
 }
+
 .middle-block {
   height: auto;
 }
@@ -17,13 +18,19 @@
 .topBtm-block {
   height: auto;
 }
-.anim-typewriter {
+.topBlock {
+  height: auto;
+  padding: auto;
+}
+.topBtm-block-produkter {
+  margin:0;
+  padding:10%;
+}
+.anim-typewriter-3 {
   font-size: 30px;
-  width: auto;
 }
 .anim-typewriter-2 {
   font-size: 25px;
-  width: auto;
   top: 40%;
 }
 .intro-blcok {
@@ -55,35 +62,55 @@
   width: 50%;
 }
 .row {
-  width: 1000px;
-  margin-left: -16%;
+  width: auto;
+  margin-top: 100px;
 }
 
-
-  /* .topBtm-block {
-    height: 750px;
-  }
-  .topBtm-block-produkter {
-    height: 850px;
-  }
-
-  .middle-block {
-    height: 750px;
-  }
-  .line {
-   margin-top: 100px;
-   top: 10px;
- }
-  .line-2 {
-   top: 10px;
- } */
+}
   .arrowBtn {
     position: relative;
     top: 5%;
  }
 }
 
-@media only screen and (max-width:550px) {
+@media only screen and (max-width:960px) {
+  /* laptop side window */
+  .info-outer-container {
+    width: 100%;
+    height: 800px;
+  }
+  .info-1{
+    padding: 50px;
+    padding-top: 150px;
+  }
+
+  .info-container {
+    padding: 0;
+    float: none;
+    width: 100%;
+  }
+  .info-1 {
+    width: 100%;
+    margin-top: 100px;
+    padding: 10px;
+  }
+  .info-background {
+
+  }
+  .topBtm-block {
+    height: 1000px;
+  }
+  .h2Container {
+    position: relative;
+    top: 20px;
+  }
+  .h2Container2 {
+    margin-top: 100px;
+  }
+}
+
+
+@media only screen and (max-width:400px) {
 /* Phone */
   * {
     overflow-x: hidden;
@@ -93,6 +120,9 @@
     display: none;
   }
   /* SCROLLBAR END */
+  .arrow-text {
+    visibility: hidden;
+  }
   .logo {
     margin: 20px 20px;
     width: 50%;
@@ -106,7 +136,39 @@
     visibility: hidden;
   }
   .topBtm-block {
+    height: 1700px;
+    padding: 0;
+    margin:0;
+  }
+  .topBtm-block-produkter {
     height: auto;
+  }
+  .h2TextBlock-static {
+    width: 250px;
+    margin-top: 50px;
+  }
+  .h2Container {
+    position: relative;
+    top: 20px;
+  }
+  .h2Container2 {
+    position: relative;
+    top: 100px;
+  }
+  .middle-block {
+    height: 700px;
+  }
+  .info-outer-container {
+    overflow-y: visible;
+    width: 100%;
+    height: 1500px;
+    margin: auto;
+  }
+  .info-1 {
+    margin: auto;
+  }
+  .info-container {
+    padding-top: 20px;
   }
   .skew-c-top {
     visibility: hidden;
@@ -140,10 +202,18 @@
   .h2TextBlock {
     font-size: 20px;
     margin: auto;
-    width: 100%;
+    width: 70%;
+  }
+  .h2TextBlock:hover {
+
   }
   .h2TextBlock-läsmer {
-    visibility: hidden;
+    visibility: visible;
+  }
+  .col-lg-4 {
+    overflow-x:auto;
+    margin: auto;
+    width: 75%;
   }
   .col-lg-4:hover {
     transition: 0;

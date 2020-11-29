@@ -9,7 +9,7 @@
   margin: 0;
 }
 .topBtm-block {
-  height: auto;
+  height: 1100px;
   width: 100%;
   margin: auto;
   position: relative;
@@ -26,9 +26,8 @@
   span { font-size: 2.2rem; }
 }
 .product-info {
-  margin-top: -40px;
-  position: relative;
-  bottom: 6vh;
+  position: absolute;
+  bottom: 0;
 }
 .info-outer-container {
   position: relative;
@@ -36,9 +35,16 @@
   width: 100%;
   background-color: #eef4ed;
   border-radius: 21px;
+  margin: auto;
+  top: 25vh;
+
 }
 .info-1 {
+  position: relative;
   padding: 50px;
+  width: auto;
+  min-height: 800px;
+
 }
 .info-container {
   height: 100%;

@@ -86,8 +86,22 @@
       font-size: 3rem;
   }
 
-
-
+/* TEXT ANIMATION */
+  .anim-typewriter-2 {
+    color: white;
+    /* background-color: #ff5c6e; */
+    font-weight: 200;
+    animation: typewriter-2 1s steps(15) 1.6s 1 normal both,
+    blinkTextCursor-2 500ms steps(20) infinite normal;
+  }
+  @keyframes typewriter-2 {
+        from {
+              width: 0;
+        }
+        to {
+              width: 4em;
+        }
+  }
 
 
 

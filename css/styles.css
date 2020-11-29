@@ -262,11 +262,13 @@ h2 {
   z-index: 2;
 }
 .top-block {
-  height: 800px;
+  overflow: hidden;
+  height: 600px;
   width: 100%;
-  padding:7% 20% 10% 20%;
+  padding: 4em;
   z-index: 2;
 }
+
 .line {
   position: relative;
   top: 10%;
@@ -290,19 +292,20 @@ h2 {
   overflow: hidden;transform: translateY(-50%);
 }
 
-.anim-typewriter {
+.anim-typewriter-3 {
   color: white;
-  background-color: #ff5c6e;
+  /* background-color: #ff5c6e; */
   font-weight: 200;
-  animation: typewriter 1.5s steps(20) 0.4s 1 normal both,
-  blinkTextCursor 500ms steps(20) infinite normal;
+  animation: typewriter-3 1.5s steps(20) 0.4s 1 normal both,
+  blinkTextCursor-2 500ms steps(25) infinite normal;
 }
+
 .anim-typewriter-2 {
   color: white;
-  background-color: #ff5c6e;
+  /* background-color: #ff5c6e; */
   font-weight: 200;
-  animation: typewriter-2 1.5s steps(20) 1.6s 1 normal both,
-  blinkTextCursor-2 500ms steps(25) infinite normal;
+  animation: typewriter-2 0.8s steps(15) 1.6s 1 normal both,
+  blinkTextCursor-2 500ms steps(20) infinite normal;
 }
 .arrowBtn {
   padding: 20px 40px 20px 40px;
@@ -599,8 +602,8 @@ h2 {
 
 
 /* @ MEDIA */
-@media only screen and (max-height:800px) {
-/* LAPTOP */
+/*@media only screen and (max-height:800px) {
+LAPTOP
 * {
   overflow-x: hidden;
 }
@@ -658,6 +661,9 @@ h2 {
   width: 1000px;
   margin-left: -16%;
 }
+.info-outer-container {
+
+}
 
 
   /* .topBtm-block {
@@ -676,7 +682,7 @@ h2 {
  }
   .line-2 {
    top: 10px;
- } */
+ }
   .arrowBtn {
     position: relative;
     top: 5%;
@@ -684,15 +690,15 @@ h2 {
 }
 
 @media only screen and (max-width:550px) {
-/* Phone */
+Phone
   * {
     overflow-x: hidden;
   }
-  /* SCROLLBAR */
+  /* SCROLLBAR
   ::-webkit-scrollbar {
     display: none;
   }
-  /* SCROLLBAR END */
+  /* SCROLLBAR END
   .logo {
     margin: 20px 20px;
     width: 50%;
@@ -745,7 +751,7 @@ h2 {
   .h2TextBlock-läsmer {
     visibility: hidden;
   }
-  .col-lg-4:hover {
+  /* .col-lg-4:hover {
     transition: 0;
     background: transparent;
     color: white;
@@ -754,7 +760,7 @@ h2 {
     background: white;
     color: black;
     transition: 0.5s;
-  }
+  } */
 
   /* .merInfoBtn-produkt {
     display: none !important;
@@ -785,14 +791,7 @@ h2 {
 
 /* @keyframes */
 
-@keyframes typewriter {
-      from {
-            width: 0;
-      }
-      to {
-            width: 7.5em;
-      }
-}
+
 
 @keyframes blinkTextCursor {
       from {
@@ -808,7 +807,15 @@ h2 {
             width: 0;
       }
       to {
-            width: 8em;
+            width: 2.5em;
+      }
+}
+@keyframes typewriter-3 {
+      from {
+            width: 0;
+      }
+      to {
+            width: 6em;
       }
 }
 
