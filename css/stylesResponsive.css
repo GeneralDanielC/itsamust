@@ -107,6 +107,9 @@
   .h2Container2 {
     margin-top: 100px;
   }
+  .skew-c-top {
+    visibility: hidden;
+  }
 }
 
 

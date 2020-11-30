@@ -28,12 +28,21 @@
     padding: 0;
     margin: auto;
   }
+  .skew-c-top  {
+    visibility: hidden;
+  }
+  .skew-cc {
+    visibility: hidden;
+  }
+  .topBtm-block {
+    background-color: #222222;
+  }
 }
 
 @media only screen and (max-width:590px) {
 
   .top-block {
-    height: 1900px;
+    height: 1700px;
     margin: 0;
     padding: 20px;
   }
@@ -57,14 +66,21 @@
   .info-background-2 {
     padding: 0;
   }
-  .skew-c-top {
-    visibility: visible;
-  }
+
   .product-info {
     font-size: 12px;
   }
   .nav-link {
     padding-right: 0;
-    
+
+  }
+  .skew-c-top  {
+    visibility: hidden;
+  }
+  .skew-cc {
+    visibility: hidden;
+  }
+  .topBtm-block {
+    background-color: #222222;
   }
 }

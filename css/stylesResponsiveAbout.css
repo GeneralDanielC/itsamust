@@ -17,6 +17,7 @@
     width: 100%;
     margin-top: 50px;
   }
+
 }
 
 @media only screen and (max-width:590px) {
@@ -51,5 +52,8 @@
   #container4 {
     margin-top: 50px;
     margin-bottom: 50px;
+  }
+  .skew-c-top {
+    visibility: hidden;
   }
 }
