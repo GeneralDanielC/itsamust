@@ -1,0 +1,55 @@
+@media only screen and (max-width:1280px) {
+  /* Laptop */
+  .info-1 {
+    padding-top: 175px;
+  }
+
+}
+
+@media only screen and (max-width:960px) and (min-width:591px) {
+  /* laptop side window */
+  .info-1 {
+    padding: 40px;
+  }
+
+  .info-container-2 {
+    float: none;
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width:590px) {
+  .top-block {
+    height: 500px;
+  }
+  .info-1 {
+    padding: 0;
+  }
+  .info-background-2 .info-background {
+    padding: 5px;
+  }
+  .info-outer-container {
+    height: auto;
+  }
+  .info-outer-container-2 {
+    height: auto;
+  }
+  .info-container-2 {
+    float: none;
+    width: 100%;
+    margin-top: 150px;
+    padding: 10px;
+  }
+  .middle-container {
+    height: auto;
+  }
+  #container2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #container4 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
