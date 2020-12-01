@@ -16,34 +16,43 @@
 </head>
 <body class="homeBody">
 
+<div class="mitten-yttre">
 
-  <nav class="navbarContainer">
-    <!--MENU START-->
-    <div id="headNav" class="overlay">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-      <!-- Overlay content -->
-      <div class="overlay-content">
-        <a id="menuHem" href="index.html">HEM</a>
-        <a href="products.html">PRODUKTER</a>
-        <a href="about.html">OM OSS</a>
-      </div>
-    </div>
-    <span class="menuBtn" onclick="openNav()" data-fixed data-fixed-top="50" data-fixed-left="30">
-      <span class="menuLine1"></span>
-      <span class="menuLine2"></span>
-    </span>
-    <script>
-      function openNav() {
-        document.getElementById("headNav").style.width = "100%";
+  <img style="height: 20%; width: auto; margin: auto;" class="mitten" src="images/logotyp-D4.png" alt="">
+  <h1 style="margin-top: 50px;" class="mitten">Hemsidan är för tillfället nere. </h1>
+  <h2 style="font-size: 25px;" class="mitten">Hemsidan publiceras seanst 10-12-20.</h2>
+  <p class="mitten">Passa på att julshoppa via vår Instagram.</p>
+
+  <div style="margin-top: 150px;">
+    <p class="mitten text-footer">© ITS A MUST UF. 2020</p>
+    <p class="mitten text-footer adress">Wergelandsgatan 22, 168 48 Bromma</p>
+  </div>
+
+
+</div>
+    <style media="screen">
+      .span-footer {
+        color: white;
       }
+      .logo {
+        margin: auto;
 
-      /* Close when someone clicks on the "x" symbol inside the overlay */
-      function closeNav() {
-        document.getElementById("headNav").style.width = "0%";
       }
-    </script>
-    <!--MENU END-->
+      .body {
+        width: 100%;
+      }
+      .mitten {
+        display: flex;
+        justify-content: center;
+        color: white;
+      }
+      .mitten-yttre {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+      }
+    </style>
 
 
 
@@ -51,134 +60,6 @@
 
 
 
-
-    <!-- <a href="#" class="menuBtn" data-fixed data-fixed-top="50" data-fixed-left="30">
-      <span class="menuLine1"></span>
-      <span class="menuLine2"></span>
-    </a> -->
-    <div class="siteLogo">
-      <a href="#">
-        <img class="logo" src="images/logotyp-D4.png" alt="site-logo">
-      </a>
-    </div>
-  </nav>
-  <div style="visibility: hidden;" class="skew-c-top"></div>
-  <div class=" top-block">
-    <div style="margin-top: 60px;" class="intro-block">
-      <p class=" line anim-typewriter-3">it's a must.</p>
-      <p class=" line-2 anim-typewriter-2">hem.</p>
-      <!-- <a class="fade-in arrowBtn btn-danger" href="#middle">
-        <img class="arrowImg" src="images/down-arrow.png" alt="">
-      </a> -->
-    </div>
-  </div>
-  <div class="skew-cc"></div>
-  <div id="middle"  class="middle-block">
-    <div class="text-block fade-in">
-      <h3>
-        Vårat koncept.
-      </h3>
-      <p class="paragraph-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit lectus, porta id diam ac, feugiat interdum nisi. Pellentesque ut arcu eu lectus ultricies rhoncus et id justo. Suspendisse luctus molestie risus sit amet euismod. Nunc et leo quis est semper auctor. Nulla quis lectus ullamcorper ipsum rutrum blandit. Nam felis lorem, bibendum ut lectus ac, iaculis consectetur nisl. Aenean mi lorem, molestie id purus eu, feugiat vulputate est. Ut sed laoreet tortor. Proin sed augue vestibulum, condimentum nulla in, varius dui.</p>
-    </div>
-    <div style="margin-top: 50px; " class="fade-in h2Container-läsmer">
-      <div class="h2TextContainer">
-        <a href="about.html">
-          <h2 style="font-size: 20px; width: 200px;" class="h2TextBlock h2TextBlock-läsmer">Läs mer om oss</h2>
-        </a>
-      </div>
-    </div>
-
-
-    <!-- <div class="left">
-
-    </div>
-    <div class="right">
-
-    </div> -->
-  </div>
-  <div class="skew-c"></div>
-  <div class="topBtm-block topBtm-block-produkter">
-
-    <div style="margin-bottom: 30px;" class="h2Container">
-      <img class="arrow-text" src="images/drawnarrow-text-1.png" alt="">
-      <a href="products.html">
-        <h2 class="h2TextBlock">Våra Produkter</h2>
-      </a>
-    </div>
-
-    <div class="row">
-      <div class="text-center col-lg-4">
-        <img style="" class="rounded-circle mx-auto" src="images/apple.png" width="140" height="auto" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" alt="lemonadflaska">
-        <!-- <svg class="text-center svgimg bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
-        <h2>Äppelmust</h2>
-        <h3>Originalet</h3>
-        <p>Musten producerar vi själva, på handplockade vildvuxna äpplen från Sveriges trädgårdar som vi sedan försluter i glasflaskor på trettiotre centiliter.</p>
-        <p><a class="merInfoBtn-produkt btn btn-danger" href="product-1.html" role="button">Mer information &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="text-center col-lg-4">
-        <img class="rounded-circle mx-auto" src="images/apple.png" width="140" height="auto" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" alt="lemonadflaska">
-        <h2>Äppelmust</h2>
-        <h3>Med en touch av kanel</h3>
-        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.Etiam porta sem malesuada magna mollis euismod.</p>
-        <p><a class="merInfoBtn-produkt btn btn-danger" href="product-2.html" role="button">Mer information &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="text-center col-lg-4">
-      <img class="rounded-circle mx-auto" src="images/apple.png" width="140" height="auto" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" alt="lemonadflaska">
-      <h2>Äppelmust</h2>
-      <h3>Originalet i bag-in-box</h3>
-        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.Etiam porta sem malesuada magna mollis euismod.</p>
-        <p><a class="merInfoBtn-produkt btn btn-danger" href="product-3.html" role="button">Mer information &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
-
-  </div>
-  <div class="skew-cc"></div>
-
-
-
-
-
-
-
-  <div class="footer">
-    <!-- <div class="mailBoxContainer">
-      <p class="mailBoxText">E-post: info.itsamust@gmail.com</p>
-      <a class="mailBoxATAG" href="mailto: info.itsamust@gmail.com">Skriv till oss</a> -->
-    <!-- </div> -->
-    <ul class="ul-footer">
-      <li id="foot-item-1" class="li-footer">
-        <a class="a-footer" href="https://sv-se.facebook.com/" target="_blank">
-          <span class="span-footer"></span>
-          <span class="span-footer"></span>
-          <span class="span-footer"></span>
-          <span class="span-footer"></span>
-          <i class="fab fa-facebook-f"></i>
-        </a>
-      </li>
-      <li id="foot-item-2" class="li-footer">
-        <a class="a-footer" href="https://www.instagram.com/itsamust.uf/" target="_blank">
-          <span class="span-footer"></span>
-          <span class="span-footer"></span>
-          <span class="span-footer"></span>
-          <span class="span-footer"></span>
-          <i class="fab fa-instagram" aria-hidden="true"></i>
-        </a>
-      </li>
-
-      <li id="foot-item-3" class="li-footer">
-        <a class="mailATag a-footer" href="mailto: info.itsamust@gmail.com">
-          <span class="span-footer"></span>
-          <span class="span-footer"></span>
-          <span class="span-footer"></span>
-          <span class="span-footer"></span>
-          <i class="far fa-envelope" aria-hidden="true"></i>
-        </a>
-      </li>
-    </ul>
-    <p class="text-footer">© ITS A MUST UF. 2020</p>
-    <p class="text-footer adress">Wergelandsgatan 22, 168 48 Bromma</p>
-
-  </div>
   <!-- SCRIPTS -->
   <!-- <button onclick="changePageTitle()">
         Change Page Title
