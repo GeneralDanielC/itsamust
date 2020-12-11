@@ -12,14 +12,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://api.playground.klarna.com/">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <link rel="stylesheet" type="text/css" href="css/stylesAbout.css">
-  <link rel="stylesheet" type="text/css" href="css/stylesProducts.css">
   <link rel="stylesheet" type="text/css" href="css/stylesResponsive.css">
 </head>
 <body class="homeBody">
 
 
-  <nav style="z-index: 100;" class="navbarContainer">
+  <nav class="navbarContainer">
     <!--MENU START-->
     <div id="headNav" class="overlay">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -31,7 +29,7 @@
         <a href="about.html">OM OSS</a>
       </div>
     </div>
-    <span style="z-index: 5;" class="menuBtn" onclick="openNav()" data-fixed data-fixed-top="50" data-fixed-left="30">
+    <span class="menuBtn" onclick="openNav()" data-fixed data-fixed-top="50" data-fixed-left="30">
       <span class="menuLine1"></span>
       <span class="menuLine2"></span>
     </span>
@@ -58,74 +56,101 @@
       <span class="menuLine1"></span>
       <span class="menuLine2"></span>
     </a> -->
-    <div style="z-index: 100;" class="siteLogo">
-      <a href="index.html">
+    <div class="siteLogo">
+      <a href="#">
         <img class="logo" src="images/logotyp-D4.png" alt="site-logo">
       </a>
     </div>
   </nav>
-
-
-  <div class="skew-c-top"></div>
-  <div class=" topBlock">
+  <div style="visibility: hidden;" class="skew-c-top"></div>
+  <div class=" top-block">
     <div style="margin-top: 60px;" class="intro-block">
       <p class=" line anim-typewriter-3">it's a must.</p>
-      <p class=" line-2 anim-typewriter-2">våra produkter.</p>
+      <p class=" line-2 anim-typewriter-2">hem.</p>
       <!-- <a class="fade-in arrowBtn btn-danger" href="#middle">
         <img class="arrowImg" src="images/down-arrow.png" alt="">
       </a> -->
     </div>
+  </div>
   <div class="skew-cc"></div>
-    <div class="middle-block">
-      <div style="margin-bottom: 30px;" class="h2Container">
-        <h2 class="h2TextBlock-static">Våra kläder</h2>
-      </div>
-      <div class="row">
-        <div style="margin: auto; width: 400px;" class="text-center col-lg-4">
-          <img style="" class="productimage rounded-circle mx-auto" src="images/question.png" width="140" height="auto" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" alt="">
-          <img style="" class="productimage-2 rounded-circle mx-auto" src="images/question-black.png" width="140" height="auto" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" alt="">
-          <h2>IT'S A MUST</h2>
-          <h3>MERCH</h3>
-          <p>Att ha vår merch är bara ett måste.</p>
-          <p>KOMMER SNART!</p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
+  <div id="middle"  class="middle-block">
+    <div class="text-block fade-in">
+      <h2>Vår affärsidé.</h2>
+      <h3 style="font-size: 18px;">Noll tillsatser av något slag. IT'S A MUST.</h3>
+      <p style="font-size: 15px;">Vi tror på att en äppelmust ska vara just en äppelmust. Inte en flaska med massa tillsatser för att efterlikna en smak av äpplen. En äppelmust ska vara en smak av naturen.</p>
+      <p style="font-size: 15px;">Du kan dricka IT'S A MUSTs äppelmust med gott samvete med kunskapen av att vår must är producerad på äpplen som annars hade gått förlorade denna säsong. Äpplen från din grannes vackra äppelträd som din granne inte haft tid eller varit intresserad av att plocka; och <b><a style="text-decoration: none; color: white;" href="#blåmärksfrukt">räddad frukt</a></b> från dina lokala livsmedelsbutiker som annars skulle gått till spillo.</p>
     </div>
+    <div style="margin-top: 50px; " class="fade-in h2Container-läsmer">
+      <div class="h2TextContainer">
+        <a href="about.html">
+          <h2 style="font-size: 20px; width: 200px;" class="h2TextBlock h2TextBlock-läsmer">Läs mer om oss</h2>
+        </a>
+      </div>
+    </div>
+
+
+    <!-- <div class="left">
+
+    </div>
+    <div class="right">
+
+    </div> -->
+  </div>
   <div class="skew-c"></div>
   <div class="topBtm-block topBtm-block-produkter">
-    <div style="margin-bottom: 30px; margin-top: 100px;" class="h2Container2 h2Container">
-      <h2 class="h2TextBlock-static">Våra drycker</h2>
+
+    <div style="margin-bottom: 30px;" class="h2Container">
+      <img class="arrow-text" src="images/drawnarrow-text-1.png" alt="">
+      <a href="products.html">
+        <h2 class="h2TextBlock">Våra Produkter</h2>
+      </a>
     </div>
+
     <div class="row">
       <div class="text-center col-lg-4">
         <img style="" class="rounded-circle mx-auto" src="images/apple.png" width="140" height="auto" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" alt="lemonadflaska">
         <!-- <svg class="text-center svgimg bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
         <h2>Äppelmust</h2>
         <h3>Originalet</h3>
+        <h3 style="font-size: 15px;">15 kr - 33cl</h3>
+        <p>Musten producerar vi själva, på handplockade vildvuxna äpplen från Sveriges trädgårdar. Drick den med gott samvete med kunskapen om att du bidrar till minskat fruktsvinn.</p>
+        <!-- <p><a class="merInfoBtn-produkt btn btn-danger" href="product-1.html" role="button">Mer information &raquo;</a></p> -->
+        <p><a class="merInfoBtn-produkt btn btn-danger" href="product-1.html" role="button">15 kr</a></p>
 
-        <p>Musten producerar vi själva, på handplockade vildvuxna äpplen från Sveriges trädgårdar som vi sedan försluter i glasflaskor på trettiotre centiliter.</p>
-        <p><a class="merInfoBtn-produkt btn btn-danger" href="product-1.html" role="button">Mer information &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="text-center col-lg-4">
         <img class="rounded-circle mx-auto" src="images/apple.png" width="140" height="auto" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" alt="lemonadflaska">
         <h2>Äppelmust</h2>
         <h3>Med en touch av kanel</h3>
-        <p>Vill du avnjuta en mycket smakrik dryck med smak av jul, vinter och äppelpaj, så är detta drycken för dig!</p>
-        <p><a class="merInfoBtn-produkt btn btn-danger" href="product-2.html" role="button">Mer information &raquo;</a></p>
+        <h3 style="font-size: 15px;">25 kr - 33cl</h3>
+        <h3 style="font-size: 15px; color: red;">FÅTAL KVAR</h3>
+        <p>Vill du avnjuta en mycket smakrik dryck med drag av jul, vinter och äppelpaj, så är detta drycken för dig!</p>
+        <p><a class="merInfoBtn-produkt btn btn-danger" href="product-2.html" role="button">25 kr</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="text-center col-lg-4">
       <img class="rounded-circle mx-auto" src="images/apple.png" width="140" height="auto" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" alt="lemonadflaska">
       <h2>Äppelmust</h2>
       <h3>Originalet i bag-in-box</h3>
+      <h3 style="font-size: 15px;">125 kr - 300cl</h3>
         <p>Räcker inte 33cl till? Då har vi rätt produkt just för dig! Precis som originalet men i stort format.</p>
-        <p><a class="merInfoBtn-produkt btn btn-danger" href="product-3.html" role="button">Mer information &raquo;</a></p>
+        <p><a class="merInfoBtn-produkt btn btn-danger" href="product-3.html" role="button">125 kr</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
   </div>
-  <!-- FOOTER -->
   <div class="skew-cc"></div>
+
+
+
+
+
+
+
   <div class="footer">
+    <!-- <div class="mailBoxContainer">
+      <p class="mailBoxText">E-post: info.itsamust@gmail.com</p>
+      <a class="mailBoxATAG" href="mailto: info.itsamust@gmail.com">Skriv till oss</a> -->
+    <!-- </div> -->
     <ul class="ul-footer">
       <li id="foot-item-1" class="li-footer">
         <a class="a-footer" href="https://sv-se.facebook.com/" target="_blank">
@@ -171,11 +196,12 @@
           }
   </script> -->
 
-  <script src="script.js" charset="utf-8"></script>
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js" charset="utf-8"></script>
 </body>
 
 </html>
