@@ -127,12 +127,90 @@
     <!-- Modal content -->
     <div class="modal-content">
       <span class="close">&times;</span>
-      <h2>Hur köper jag?</h2>
+      <h2 style="font-size: 22px;">Hur köper jag?</h2>
+      <h3 style="font-size: 20px; text-align: center;">Steg 1</h3>
+      <p style="font-size: 15px;">För att komma igång med din beställning så hör du antingen av dig via mejl eller Instagram DM. <br> Det lättaste sättet är genom att klicka på mejlknappen nedan, där du snabbt och smidigt fyller i dina kontaktuppgifter samt vilka produkter du vill ha.</p>
+
+      <div style="margin: auto; padding: 30px;" class="">
+        <form style="margin: auto;" action="mailto:info.itsamust@gmail.com?subject=Beställning" method="post" enctype="text/plain">
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <input type="text" name="Namn" class="form-control" id="inputEmail4" placeholder="Namn">
+            </div>
+            <div class="form-group col-md-4">
+              <input type="email" name="E-post" class="form-control" id="inputEmail4" placeholder="E-post">
+            </div>
+            <div class="form-group col-md-4">
+              <input type="number" name="Telefonnummer" class="form-control" id="inputEmail4" placeholder="Telefonnummer">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input type="text" name="Adress" class="form-control" placeholder="Adress">
+            </div>
+            <div class="form-group col-md-3">
+              <input type="text" name="Postnummer" class="form-control" placeholder="Postnummer">
+            </div>
+            <div class="form-group col-md-3">
+              <input type="text" name="Postadress" class="form-control" placeholder="Postadress">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <select id="inputState" name="Leveranssatt" class="form-control">
+                <option selected>Leveranssätt...</option>
+                <option>Hemleverans : 20-50kr</option>
+                <option>Leverans PostNord : 79kr</option>
+              </select>
+            </div>
+            <div class="form-group col-md-4">
+              <select id="inputState" name="Produkt" class="form-control">
+                <option selected>Välj produkt...</option>
+                <option>Äppelmust Original : 29kr</option>
+                <option disabled>Äpplemust Limited Edition : 29kr - SLUT</option>
+                <option disabled>Äpplemust Bag-in-Box : 125kr - SLUT</option>
+              </select>
+            </div>
+            <div class="form-group col-md-4">
+              <input type="number" name="Antal" class="form-control" placeholder="Antal">
+            </div>
+          </div>
+          <button style="margin: auto;" type="submit" class="btn btn-primary" value="Send">Skicka</button>
+        </form>
+      </div>
+      <ul class="ul-footer">
+        <li id="foot-item-2" class="li-footer">
+          <a class="a-footer" href="https://www.instagram.com/itsamust.uf/" target="_blank">
+            <span style="color:black;" class="span-footer"></span>
+            <span style="color:black;" class="span-footer"></span>
+            <span style="color:black;" class="span-footer"></span>
+            <span style="color:black;" class="span-footer"></span>
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+
+
+
+
+
+
+
+
+
+
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <a id="btnSearch" class="btn btn-danger btn-md center-block" style="width: 100px; margin-right: 10px;" href="mailto: info.itsamust@gmail.com?subject=Beställning&body=Hej! Jag skulle vilja lägga en beställning!">MEJL</a>
+          <a id="btnSearch" class="btn btn-danger btn-md center-block" style="width: 100px;" href="https://www.instagram.com/itsamust.uf/" target="_blank">INSTAGRAM</a>
+        </div>
+      </div>
+
       <p>För tillfället går det endast att beställa via Instagram DM och mejl.</p>
       <p>Vänligen notera att det kan ta upp till 24h för oss att genomföra din order. </p>
       <p style="color: black;"><a class="media-link" style="text-decoration: none; color: black;" href="mailto: info.itsamust@gmail.com?subject=Beställning&body=Hej! Jag skulle vilja lägga en beställning! ">E-post:<b> itsamust.uf@gmail.com</a></b>&nbsp;/&nbsp;<a style="text-decoration: none; color: black;" href="https://www.instagram.com/itsamust.uf/" target="_blank">Instagram: <b>@itsamust.uf</b></a></p>
       <h2>Leverans</h2>
-      <p>Vi erbjuder hemleverans för </p>
+      <p>Vad gäller leverans tar vi en avgift bereonde på vart du bor. </p>
 
 
     </div>

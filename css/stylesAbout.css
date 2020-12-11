@@ -14,7 +14,7 @@
 .topBtm-block {
   width: 100%;
   margin: auto;
-  height: 750px;
+  height: 550px;
 }
 
 .middle-block {
@@ -36,7 +36,7 @@
 }
 .info-outer-container {
   position: relative;
-  min-height: 80vh;
+  min-height: 750px;
   width: 100%;
   background: #222222;
 }
@@ -69,7 +69,7 @@
 }
 .info-outer-container-2 {
   position: relative;
-  min-height: 80vh;
+  height: 800px;
   width: 100%;
   background: #7a7a7a;
 }
