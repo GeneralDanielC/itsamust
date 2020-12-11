@@ -263,7 +263,7 @@ h2 {
 
 .topBtm-block {
   height: 1000px;
-  width: 100%;
+  width: 100vw;
   padding:7% 20% 10% 20%;
   z-index: 2;
 }
@@ -343,7 +343,7 @@ h2 {
 
 .middle-block {
   margin-top: 100px;
-  width:100%;
+  width:100vh;
   padding:7% 20% 10% 20%;
   height: 600px;
   position: relative;
@@ -471,7 +471,7 @@ h2 {
 /* FOOTER START */
 .footer {
   height: 400px;
-  width: auto;
+  width: 100vw;
   left: 0;
   bottom: 0px;
   color: black;
