@@ -1,6 +1,9 @@
 .homeBody {
   background: #7a7a7a;
 }
+.info-background-2 {
+  color: white;
+}
 
 .footer {
   background: #222222;
@@ -15,8 +18,11 @@
 }
 
 .middle-block {
-  height: 300px;
+  height: auto;
   background-color: #222222;
+}
+.intro-block {
+  height: auto;
 }
 /*CONTENT*/
 
@@ -50,6 +56,7 @@
   text-align: center;
   background-color: #eef4ed;
   min-height: 400px;
+
 }
 .info-background-2 {
   padding: 50px;
@@ -58,6 +65,7 @@
   color: white;
   background-color: #ff5c6e;
   min-height: 400px;
+
 }
 .info-outer-container-2 {
   position: relative;
@@ -113,6 +121,7 @@
   height:100px;
   position:absolute;
   left:0px;
+  z-index: 10;
   background: linear-gradient(to right bottom, #7A7A7A 49%, #222222 50%),    linear-gradient(-50deg, #222222 16px, #000 0);
 }
 /*2D2D2A*/
@@ -132,6 +141,7 @@
   height:115px;
   position:absolute;
   left:0px;
+  top:0;
   background: linear-gradient(to left bottom, #222222 49%, #7A7A7A 50%);
 }
 /*-------*/

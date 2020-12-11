@@ -1,41 +1,8 @@
-/* links */
-/* https://coolors.co/fffcf2-ccc5b9-403d39-252422-eb5e28 */
-/* https://coolors.co/1a535c-4ecdc4-f7fff7-ff6b6b-ffe66d */
-
-
-
-/* GLOBAL */
-html {
-  scroll-behavior: smooth;
-  text-decoration: none;
-}
-body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  border: 0;
-}
-*::selection {
-  background: #ff0000;
-}
-
-a {
-  text-decoration: none;
-}
-a:hover {
-  cursor: pointer;
-  text-decoration: none;
-}
-p {
-  text-align: center;
-}
 h2 {
-  text-align: center;
+  font-family: Raleway;
+  font-size: 40px;
+  font-weight: 100;
 }
- {
-  text-align: center;
-}
-
 
 
 /* CLASSES */
@@ -46,133 +13,26 @@ h2 {
 }
 /* SCROLLBAR */
 ::-webkit-scrollbar {
-  width: 5px;
-  border-radius: 3px;
+  width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #222222;
+  background: #adadad;
 }
 ::-webkit-scrollbar-thumb {
-  background: #888585;
+  background: #858585;
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #c4c4c4;
 }
 
 /* SCROLLBAR END */
-/* #middle {
-  margin: 0;
-  padding: 0;
-}
-.columns {
-  width: 100%;
-  height: 1000px;
-  margin: auto;
-  padding: 10px;
-}
-.leftColumn {
-  width: 30%;
-  height: 300px;
-  float: left;
-
-}
-.rightColumn {
-  margin-left: 30%;
-  height: 300px;
-} */
-
-.mailBoxContainer {
-  position: relative;
-  width: 300px;
-  height: 75px;
-  background-color: lightgray;
-  border-radius: 5px;
-  top: 45%;
-  left: 55%;
-  z-index: 1;
-  display: none;
-}
-.mailBoxText {
-  top: 50%;
-}
-.mailBoxATAG {
-  margin: auto;
-  color: white;
-  text-decoration: none;
-  text-decoration: underline;
-}
-.mailBoxATAG:hover {
-  margin: auto;
-  color: black;
-  text-decoration: none;
-  text-decoration: underline;
-}
-
-.col-lg-4 {
-  padding: 30px;
-  border-radius: 5px;
-}
-.col-lg-4:hover {
-  background: white;
-  color: black;
-  transition: 0.5s;
-
-}
-
-.arrow-text {
-  display: inline;
-  height: 85px;
-  width: auto;
-  position: relative;
-  left: 64%;
-  margin-bottom: 50px;
-}
-
-.h2Container {
-
-  margin: auto;
-  width: 100%;
-  padding: 50px;
-  padding-top: 0;
-}
-.h2TextBlock {
-  padding: 20px;
-  font-size: 40px;
-  border-radius: 5px;
-  margin: auto;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  width: 400px;
-  color: white;
-  background-color: #ff5c6e;
-  font-family: 'Inconsolata', monospace;
-  transition: 0.25s;
-  /* -webkit-box-shadow: 3px 4px 11px 6px rgba(0,0,0,0.65);
-  box-shadow: 3px 4px 11px 6px rgba(0,0,0,0.65); */
-
-}
-.h2TextBlock:hover {
-  text-decoration: none;
-  padding: 20px;
-  font-size: 40px;
-  border-radius: 5px;
-  margin: auto;
-  width: 400px;
-  color: #ff5c6e;
-  background-color: white;
-  font-family: 'Inconsolata', monospace;
-}
-.h2TextBlock-läsmer:hover {
-  background-color: #222222;
+.ph3 {
+  font-size: 15px;
 }
 .homeBody {
   margin: 0;
   padding: 0;
-  /* background: #ccc5b9 */
-  /* background: #ff6b6b; */
-  /* background: #EF476F; */
-  /* background: #F33F54; */
-  background: #222222;
+  background: #1AC8ED;
   overflow-y: auto;
   overflow-x: hidden;
   font-family: 'Inconsolata', monospace;
@@ -199,7 +59,7 @@ h2 {
   max-width: 30px;
   height: 2px;
   margin: 3px 0;
-  background-color: #ff5c6e;
+  background-color: #2D2D2A;
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
@@ -211,7 +71,7 @@ h2 {
   max-width: 30px;
   height: 2px;
   margin: 3px 0;
-  background-color: #ff5c6e;
+  background-color: #2D2D2A;
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
@@ -236,16 +96,11 @@ h2 {
 
 /* ------ */
 .text-block {
-  border-radius: 5px;
-  padding: 20px;
   color: white;
-  background-color: #ff5c6e;
-  opacity: 1;
+  opacity: 0.8;
   text-align: center;
   width: 60%;
   margin: auto;
-  /* -webkit-box-shadow: 3px 4px 11px 6px rgba(0,0,0,0.65);
-  box-shadow: 3px 4px 11px 6px rgba(0,0,0,0.65); */
 }
 .text-block2 {
   color: white;
@@ -261,20 +116,13 @@ h2 {
 }
 
 
+
 .topBtm-block {
-  height: 1000px;
+  height: 750px;
   width: 100%;
   padding:7% 20% 10% 20%;
   z-index: 2;
 }
-.top-block {
-  overflow: hidden;
-  height: 600px;
-  width: 100%;
-  padding: 4em;
-  z-index: 2;
-}
-
 .line {
   position: relative;
   top: 10%;
@@ -298,46 +146,36 @@ h2 {
   overflow: hidden;transform: translateY(-50%);
 }
 
-.anim-typewriter-3 {
-  color: white;
-  /* background-color: #ff5c6e; */
+.anim-typewriter {
   font-weight: 200;
-  animation: typewriter-3 1.5s steps(20) 0.4s 1 normal both,
-  blinkTextCursor-2 500ms steps(25) infinite normal;
+  animation: typewriter 1.5s steps(20) 0.4s 1 normal both,
+  blinkTextCursor 500ms steps(20) infinite normal;
 }
-
 .anim-typewriter-2 {
   color: white;
-  /* background-color: #ff5c6e; */
   font-weight: 200;
-  animation: typewriter-2 0.8s steps(15) 1.6s 1 normal both,
-  blinkTextCursor-2 500ms steps(20) infinite normal;
+  animation: typewriter-2 1.5s steps(20) 1.6s 1 normal both,
+  blinkTextCursor-2 500ms steps(25) infinite normal;
 }
 .arrowBtn {
   padding: 20px 40px 20px 40px;
   width: 150px;
   background: #fffcf2;
-  opacity: 1;
+  opacity: 0.8;
   margin: auto;
   text-align: center;
   position: relative;
   display: block;
   box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
-  transition: 0.25s;
+  z-index: 2;
 }
-.arrowBtn:hover {
-  background: #ff5c6e;
-
-}
-
 .arrowImg {
   height: 20px;
   width: auto;
   margin: auto;
   text-align: center;
   opacity: 1;
-  z-index: 1;
+  z-index: 3;
 }
 
 
@@ -345,9 +183,9 @@ h2 {
   margin-top: 100px;
   width:100%;
   padding:7% 20% 10% 20%;
-  height: 600px;
+  height: 300px;
   position: relative;
-  background: #fff;
+  background: #2D2D2A;
   overflow: hidden;
 }
 .left {
@@ -374,11 +212,22 @@ h2 {
 }
 
 
+.btm-block {
+  margin-top: 100px;
+  width:100%;
+  padding:7% 20% 10% 20%;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+  background: #FCF300;
+}
+.btm-block-last {
+  background: #809871;
+}
 
 
 /* The Overlay (background) */
 .overlay {
-  text-decoration: none;
   /* Height & width depends on how you want to reveal the overlay (see JS below) */
   height: 100%;
   width: 0;
@@ -394,7 +243,6 @@ h2 {
 
 /* Position the content inside the overlay */
 .overlay-content {
-  text-decoration: none;
   position: relative;
   top: 25%; /* 25% from the top */
   width: 100%; /* 100% width */
@@ -444,9 +292,23 @@ h2 {
   height:100px;
   position:absolute;
   left:0px;
-  background: linear-gradient(to right bottom, #222222 49%, #fff 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
+  background: linear-gradient(to right bottom, #1AC8ED 49%, #2D2D2A 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
 }
-/*2D2D2A*/
+.skew-cc-top{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to right bottom, #FCF300 49%, #2D2D2A 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
+}
+.skew-cc-top2{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to right bottom, #809871 49%, #2D2D2A 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
+}
+
 
 /*-------------------------*/
 /* SKEW COUNTER CLOCKWISE  */
@@ -456,14 +318,25 @@ h2 {
   height:100px;
   position:absolute;
   left:0px;
-  background: linear-gradient(to left bottom, #fff 49%, #222222 50%);
+  background: linear-gradient(to left bottom, #2D2D2A 49%, #1AC8ED 50%);
 }
 .skew-c-top{
   width:100%;
   height:115px;
   position:absolute;
   left:0px;
-  background: linear-gradient(to left bottom, #fff 49%, #222222 50%);
+  background: linear-gradient(to left bottom, #2D2D2A 49%, #1AC8ED 50%);
+}
+.skew-c-btm{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to left bottom, #2D2D2A 49%, #FCF300 50%);
+}
+.colorchange1 {
+  background: linear-gradient(to left bottom, #2D2D2A 49%, #809871 50%);
+
 }
 
 
@@ -474,8 +347,7 @@ h2 {
   width: auto;
   left: 0;
   bottom: 0px;
-  color: black;
-  background-color: #fff;
+  background-color: #2D2D2A;
   margin: 0;
   padding: 0;
   /* overflow: hidden; */
@@ -485,7 +357,7 @@ h2 {
 .ul-footer {
   position: relative;
   bottom: -13.5em;
-  /*transform: translate(-50%, -50%);*/
+  transform: translate(-50%, -50%);
   margin: auto;
   padding: 0;
   display: flex;
@@ -493,7 +365,6 @@ h2 {
 .ul-footer .li-footer {
   list-style: none;
 }
-
 
 .ul-footer .li-footer .a-footer {
   display: block;
@@ -504,7 +375,7 @@ h2 {
   font-size: 20px;
   text-align: center;
   text-decoration: none;
-  color: black;
+  color: white;
   margin: 0 10px;
   transition: .5s;
 }
@@ -519,7 +390,7 @@ h2 {
 .ul-footer .li-footer .a-footer .span-footer:nth-child(3) {
   width: 100%;
   height: 1px;
-  background: black;
+  background: white;
 }
 .ul-footer .li-footer .a-footer .span-footer:nth-child(1) {
   top: 0;
@@ -547,7 +418,7 @@ h2 {
 .ul-footer .li-footer .a-footer .span-footer:nth-child(4) {
   width: 1px;
   height: 100%;
-  background: black;
+  background: white;
 }
 .ul-footer .li-footer .a-footer .span-footer:nth-child(2) {
   top: 0;
@@ -572,22 +443,10 @@ h2 {
   transition: transform 0.5s;
 }
 
-#foot-item-1 {
-  margin: auto 5px auto auto;
-}
-#foot-item-2 {
-  margin: auto 5px auto 5px;
-}
-#foot-item-3 {
-  margin: auto auto auto 5px;
-}
 
-.text-center {
-  color: white;
-}
 .text-footer {
-  color: black;
-  opacity: 0.9;
+  color: white;
+  opacity: 0.6;
   text-align: center;
   margin: 10px auto;
   top: 60%;
@@ -608,179 +467,13 @@ h2 {
 
 
 /* @ MEDIA */
-/*@media only screen and (max-height:800px) {
-LAPTOP
-* {
-  overflow-x: hidden;
-}
-.middle-block {
-  height: auto;
-}
-
-.text-block {
-  width: 70%;
-}
-.arrowBtn {
-  visibility: hidden;
-}
-.topBtm-block {
-  height: auto;
-}
-.anim-typewriter {
-  font-size: 30px;
-  width: auto;
-}
-.anim-typewriter-2 {
-  font-size: 25px;
-  width: auto;
-  top: 40%;
-}
-.intro-blcok {
-  width: 100%;
-  height: auto;
-  margin: auto;
-  margin-top: 60px;
-}
-.h2Container {
-  padding:0;
-  margin:0;
-  overflow-x: visible;
-  margin: auto;
-  padding-top: 0;
-}
-.h2TextContainer {
-  width: 100%;
-}
-
-.h2TextBlock {
-  font-size: 25px;
-  margin: auto;
-  width: 60%;
-}
-.h2TextBlock:hover {
-
-  font-size: 20px;
-  margin: auto;
-  width: 50%;
-}
-.row {
-  width: 1000px;
-  margin-left: -16%;
-}
-.info-outer-container {
-
-}
-
-
-  /* .topBtm-block {
-    height: 750px;
-  }
-  .topBtm-block-produkter {
-    height: 850px;
-  }
-
-  .middle-block {
-    height: 750px;
-  }
-  .line {
-   margin-top: 100px;
-   top: 10px;
- }
-  .line-2 {
-   top: 10px;
- }
-  .arrowBtn {
-    position: relative;
-    top: 5%;
- }
-}
-
-@media only screen and (max-width:550px) {
-Phone
-  * {
-    overflow-x: hidden;
-  }
-  /* SCROLLBAR
-  ::-webkit-scrollbar {
-    display: none;
-  }
-  /* SCROLLBAR END
-  .logo {
-    margin: 20px 20px;
-    width: 50%;
-    height: auto;
-    float: right;
-  }
-  .text-block {
-    width: 100%;
-  }
-  .arrowBtn {
-    visibility: hidden;
-  }
+@media only screen and (max-height:800px) {
+/* LAPTOP */
   .topBtm-block {
-    height: auto;
+    height: 500px;
   }
-  .skew-c-top {
-    visibility: hidden;
-  }
-  .anim-typewriter {
-    font-size: 25px;
-    width: auto;
-  }
-  .anim-typewriter-2 {
-    font-size: 20px;
-    width: auto;
-    top: 40%;
-  }
-  .intro-blcok {
-    width: 100%;
-    height: auto;
-    margin: auto;
-    margin-top: 60px;
-  }
-  .h2Container {
-    padding:0;
-    margin:0;
-    overflow-x: visible;
-    margin: auto;
-    padding-top: 0;
-  }
-  .h2TextContainer {
-    width: 100%;
-  }
-
-  .h2TextBlock {
-    font-size: 20px;
-    margin: auto;
-    width: 100%;
-  }
-  .h2TextBlock-läsmer {
-    visibility: hidden;
-  }
-  /* .col-lg-4:hover {
-    transition: 0;
-    background: transparent;
-    color: white;
-  }
-  .col-lg-4:active {
-    background: white;
-    color: black;
-    transition: 0.5s;
-  } */
-
-  /* .merInfoBtn-produkt {
-    display: none !important;
-  } */
-
-  /* .topBtm-block {
-    height: 750px;
-  }
-  .topBtm-block-produkter {
-    height: 850px;
-  }
-
   .middle-block {
-    height: 750px;
+    height: 300px;
   }
   .line {
    margin-top: 100px;
@@ -792,12 +485,19 @@ Phone
   .arrowBtn {
     position: relative;
     top: 5%;
- } */
+ }
 }
 
 /* @keyframes */
 
-
+@keyframes typewriter {
+      from {
+            width: 0;
+      }
+      to {
+            width: 9.5em;
+      }
+}
 
 @keyframes blinkTextCursor {
       from {
@@ -813,15 +513,7 @@ Phone
             width: 0;
       }
       to {
-            width: 2.5em;
-      }
-}
-@keyframes typewriter-3 {
-      from {
-            width: 0;
-      }
-      to {
-            width: 6em;
+            width: 11.5em;
       }
 }
 

@@ -15,7 +15,77 @@
   position: relative;
 }
 
+#myBtn {
+  width: 150px;
+  display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #ff5c6e;
+    color: #ffffff;
+    font-family: 'Inconsolata';
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out,
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+#myBtn:hover,
+#myBtn:focus,
+#myBtn:active {
+    background: #FF2A43;
+}
+
+#myBtn:focus,
+#myBtn:active {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+#myBtn:active {
+    transform: scale(0.99);
+}
 /*CONTENT*/
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/**/
 
 .info-1 .info-2 .info-3 .info-4 .info-5 {
   display: flex;
@@ -26,8 +96,9 @@
   span { font-size: 2.2rem; }
 }
 .product-info {
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  margin: auto;
+  bottom: 5vh;
 }
 .info-outer-container {
   position: relative;
@@ -36,7 +107,7 @@
   background-color: #eef4ed;
   border-radius: 21px;
   margin: auto;
-  top: 25vh;
+  top: 15vh;
 
 }
 .info-1 {

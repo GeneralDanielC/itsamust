@@ -29,6 +29,7 @@
   }
   .info-background-2 .info-background {
     padding: 5px;
+    margin: 10px;
   }
   .info-outer-container {
     height: auto;
@@ -55,5 +56,16 @@
   }
   .skew-c-top {
     visibility: hidden;
+  }
+
+}
+@media only screen and (max-width:590px) {
+  .info-background {
+    padding: 10px;
+    padding-top: 15px;
+  }
+  .info-background-2 {
+    padding: 10px;
+    padding-top: 15px;
   }
 }

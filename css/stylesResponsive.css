@@ -10,7 +10,7 @@
 }
 
 .text-block {
-  width: 70%;
+  width: 80%;
 }
 .arrowBtn {
   visibility: hidden;
@@ -126,6 +126,7 @@
   .arrow-text {
     visibility: hidden;
   }
+
   .logo {
     margin: 20px 20px;
     width: 50%;
@@ -133,7 +134,7 @@
     float: right;
   }
   .text-block {
-    width: 100%;
+    width: 85%;
   }
   .arrowBtn {
     visibility: hidden;
@@ -159,7 +160,7 @@
     top: 100px;
   }
   .middle-block {
-    height: 700px;
+    height: 25%;
   }
   .info-outer-container {
     overflow-y: visible;
