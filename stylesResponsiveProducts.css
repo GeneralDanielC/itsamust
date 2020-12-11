@@ -56,9 +56,7 @@
 }
 
 @media only screen and (max-width:590px) {
-  body {
-    background-color: #222222;
-  }
+
   .top-block {
     height: 1700px;
     margin: 0;
