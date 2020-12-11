@@ -123,6 +123,8 @@
     display: none;
   }
   /* SCROLLBAR END */
+
+
   .arrow-text {
     visibility: hidden;
   }
@@ -228,6 +230,9 @@
     background: white;
     color: black;
     transition: 0.5s;
+  }
+  .middle-about {
+    padding: 10% 25px 15px 25px;
   }
 
   /* .merInfoBtn-produkt {
