@@ -129,42 +129,42 @@
       <span class="close">&times;</span>
       <h2 style="font-size: 22px;">Hur köper jag?</h2>
       <h3 style="font-size: 20px; text-align: center;">Steg 1</h3>
-      <p style="font-size: 15px;">För att komma igång med din beställning så hör du antingen av dig via mejl eller Instagram DM. <br> Det lättaste sättet är genom att klicka på mejlknappen nedan, där du snabbt och smidigt fyller i dina kontaktuppgifter samt vilka produkter du vill ha.</p>
+      <p style="font-size: 15px;">För att komma igång med din beställning kan du antingen fylla i formuläret nedan <br> och skicka till oss. Det går också bra att göra en beställning via Instagram DM där du besvarar samma frågor. </p>
 
       <div style="margin: auto; padding: 30px;" class="">
-        <form style="margin: auto;" action="mailto:info.itsamust@gmail.com?subject=Beställning" method="post" enctype="text/plain">
+        <form style="margin: auto;" action="mailto:info.itsamust@gmail.com?subject=Beställning&body=Vänligen" method="post" enctype="text/plain">
           <div class="form-row">
             <div class="form-group col-md-4">
-              <input type="text" name="Namn" class="form-control" id="inputEmail4" placeholder="Namn">
+              <input type="text" name="Namn" class="form-control" id="inputEmail4" placeholder="Namn" required>
             </div>
             <div class="form-group col-md-4">
-              <input type="email" name="E-post" class="form-control" id="inputEmail4" placeholder="E-post">
+              <input type="email" name="E-post" class="form-control" id="inputEmail4" placeholder="E-post" required>
             </div>
             <div class="form-group col-md-4">
-              <input type="number" name="Telefonnummer" class="form-control" id="inputEmail4" placeholder="Telefonnummer">
+              <input type="tel" name="Telefonnummer" class="form-control" id="inputEmail4" placeholder="Telefonnummer" required>
             </div>
           </div>
           <div class="form-row">
             <div class="form-group col-md-6">
-              <input type="text" name="Adress" class="form-control" placeholder="Adress">
+              <input type="text" name="Adress" class="form-control" placeholder="Adress" required>
             </div>
             <div class="form-group col-md-3">
-              <input type="text" name="Postnummer" class="form-control" placeholder="Postnummer">
+              <input type="number" name="Postnummer" class="form-control" placeholder="Postnummer" required>
             </div>
             <div class="form-group col-md-3">
-              <input type="text" name="Postadress" class="form-control" placeholder="Postadress">
+              <input type="text" name="Postadress" class="form-control" placeholder="Postadress" required>
             </div>
           </div>
           <div class="form-row">
             <div class="form-group col-md-4">
-              <select id="inputState" name="Leveranssatt" class="form-control">
+              <select id="inputState" name="Leveranssatt" class="form-control" required>
                 <option selected>Leveranssätt...</option>
                 <option>Hemleverans : 20-50kr</option>
                 <option>Leverans PostNord : 79kr</option>
               </select>
             </div>
             <div class="form-group col-md-4">
-              <select id="inputState" name="Produkt" class="form-control">
+              <select id="inputState" name="Produkt" class="form-control" required>
                 <option selected>Välj produkt...</option>
                 <option>Äppelmust Original : 29kr</option>
                 <option disabled>Äpplemust Limited Edition : 29kr - SLUT</option>
@@ -172,23 +172,43 @@
               </select>
             </div>
             <div class="form-group col-md-4">
-              <input type="number" name="Antal" class="form-control" placeholder="Antal">
+              <input type="number" name="Antal" class="form-control" placeholder="Antal" required>
+            </div>
+            <div class="form-group col-md-12">
+              <input type="text" name="Meddelande" class="form-control" placeholder="Meddelande">
             </div>
           </div>
-          <button style="margin: auto;" type="submit" class="btn btn-primary" value="Send">Skicka</button>
+          <button style="margin: auto; width: 100%;" type="submit" class="btn btn-danger" value="Send">Skicka</button>
         </form>
       </div>
-      <ul class="ul-footer">
+      <h3 style="font-size: 20px; text-align: center;">Steg 2</h3>
+      <p style="font-size: 15px;">Vi behandlar just nu din beställning. Detta kan ta upp till 24h. Vi skickar en orderbekräftelse till dig när vi hanterat din order. <br>Har du inte fått en orderbekräftelse inom 24h så hör av dig till oss via mejl eller Instagram. Vid andra frågor tveka inte att höra av dig.</p>
+      <div style="margin-top: 20px; padding-bottom: 0px;" class="modal-footer">
+        <header style="margin:auto;" class="masthead mt-auto">
+          <div class="inner">
+            <nav style="margin-top:20px" class="nav nav-masthead justify-content-center">
+              <p style="font-size: 15px; padding-top:10px;" class="text-secondary nav-link active"><b>E-post:</b> info.itsamust@gmail.com</p>
+              <p style="padding-top:7px;" class="text-secondary nav-link"><b>/</b></p>
+              <p style="font-size: 15px; margin-bottom:0px;" class="text-secondary nav-link "><b>Instagram: </b>@itsamust.uf</p>
+              <!-- <img style="height: 35px; width: auto; " class="logo" src="images/logotyp-D4.png" alt="site-logo"> -->
+
+            </nav>
+          </div>
+        </header>
+        <!-- <p style="font-size: 15px; left:0;padding-top:7px;"><b>E-post:</b> info.itsamust@gmail.com &#9;&#9;<b>/</b>&#9;&#9; <b>Instagram: </b>@itsamust.uf</p> -->
+      </div>
+
+      <!-- <ul class="ul-footer">
         <li id="foot-item-2" class="li-footer">
           <a class="a-footer" href="https://www.instagram.com/itsamust.uf/" target="_blank">
-            <span style="color:black;" class="span-footer"></span>
-            <span style="color:black;" class="span-footer"></span>
-            <span style="color:black;" class="span-footer"></span>
-            <span style="color:black;" class="span-footer"></span>
-            <i class="fab fa-instagram" aria-hidden="true"></i>
+            <span style="color:black; background: black;" class="span-footer"></span>
+            <span style="color:black; background: black;" class="span-footer"></span>
+            <span style="color:black; background: black;" class="span-footer"></span>
+            <span style="color:black; background: black;" class="span-footer"></span>
+            <i style="color:black;"  class="fab fa-instagram" aria-hidden="true"></i>
           </a>
         </li>
-      </ul>
+      </ul> -->
 
 
 
@@ -199,7 +219,7 @@
 
 
 
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-sm-12 text-center">
           <a id="btnSearch" class="btn btn-danger btn-md center-block" style="width: 100px; margin-right: 10px;" href="mailto: info.itsamust@gmail.com?subject=Beställning&body=Hej! Jag skulle vilja lägga en beställning!">MEJL</a>
           <a id="btnSearch" class="btn btn-danger btn-md center-block" style="width: 100px;" href="https://www.instagram.com/itsamust.uf/" target="_blank">INSTAGRAM</a>
@@ -210,7 +230,7 @@
       <p>Vänligen notera att det kan ta upp till 24h för oss att genomföra din order. </p>
       <p style="color: black;"><a class="media-link" style="text-decoration: none; color: black;" href="mailto: info.itsamust@gmail.com?subject=Beställning&body=Hej! Jag skulle vilja lägga en beställning! ">E-post:<b> itsamust.uf@gmail.com</a></b>&nbsp;/&nbsp;<a style="text-decoration: none; color: black;" href="https://www.instagram.com/itsamust.uf/" target="_blank">Instagram: <b>@itsamust.uf</b></a></p>
       <h2>Leverans</h2>
-      <p>Vad gäller leverans tar vi en avgift bereonde på vart du bor. </p>
+      <p>Vad gäller leverans tar vi en avgift bereonde på vart du bor. </p> -->
 
 
     </div>
